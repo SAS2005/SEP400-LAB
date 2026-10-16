@@ -68,6 +68,7 @@ class TestRovarspraket(unittest.TestCase):
             "rövarspråket.py",
             run_name="__main__"
         )
+
         mock_print.assert_called_once_with("hohejoj")
 
 
